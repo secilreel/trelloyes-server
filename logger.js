@@ -1,7 +1,7 @@
 'use strict';
 
 const winston = require('winston');
-const { NODE_ENV } = require('./config');
+const { NODE_ENV } = require('./src/config');
 
 const logger = winston.createLogger({
   level: 'info',
